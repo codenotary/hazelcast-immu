@@ -1,5 +1,7 @@
 # Hazelcast - Ledger Compliance sample integration
 
+![LC Hazelcast integration demo](lc-hazelcast-demo.gif)
+
 ## Usage
 
 After building the JAR file, cd into `target` directory and run one or more server nodes:
