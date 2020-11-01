@@ -2,6 +2,8 @@
 
 ![LC Hazelcast integration demo](lc-hazelcast-demo.gif)
 
+This sample integration is using [Ledger Compliance SDK for Java](https://github.com/vchain-us/ledger-compliance-java).
+
 ## Usage
 
 After building the JAR file, cd into `target` directory and run one or more server nodes:
@@ -10,9 +12,10 @@ After building the JAR file, cd into `target` directory and run one or more serv
 java -cp hazelcast-lc-1.0-SNAPSHOT.jar io.codenotary.ledgercompliance.hazelcast.ServerNode
 ```
 
-In another terminal window, from the same folder, run the [Hazelcast] [Ledger Compliance] (LC) client:
-[Hazelcast](https://hazelcast.org)
-[Ledger Compliance](https://codenotary.io)
+In another terminal window, from the same folder, run the [Hazelcast] - [Ledger Compliance] (LC) client:
+
+[Hazelcast]: https://hazelcast.org
+[Ledger Compliance]: https://codenotary.io
 
 ```
 java -cp hazelcast-lc-1.0-SNAPSHOT.jar io.codenotary.ledgercompliance.hazelcast.LcHazelcastPlugin
