@@ -126,5 +126,5 @@ fabric.properties
 hs_err_pid*
 
 /dependency-reduced-pom.xml
-/hazelcast-lc.iml
+/hazelcast-immu.iml
 /.idea/
